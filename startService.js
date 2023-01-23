@@ -4,7 +4,7 @@ cypress.run({
   reporter: 'junit',
   browser: 'chrome',
   config: {
-    baseUrl: 'http://localhost:8080',
+    baseUrl: 'http://localhost:3000',
     video: true,
   },
   env: {
